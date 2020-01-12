@@ -1,0 +1,75 @@
+.button-default {
+  background-color: #943156;
+  border: none;
+  border-bottom: 0.5rem solid darken(#943156, 11%);
+  font-family: Comic Sans MS;
+  margin: 1rem 0.5rem 1rem 0.5rem;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 0.7rem;
+}
+
+.button-default-genre {
+  background-color: #aa4339;
+  border: none;
+  border-bottom: 0.5rem solid darken(#943156, 11%);
+  font-family: Comic Sans MS;
+  margin: 1rem 0.5rem 1rem 0.5rem;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 0.7rem;
+}
+
+.button-change-page {
+  background-color: #732642;
+  border: none;
+  border-bottom: 0.5rem solid darken(#732642, 11%);
+  font-family: Comic Sans MS;
+  margin: 1rem 0.5rem 1rem 0.5rem;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 0.7rem;
+}
+.search-button {
+  font-family: cursive;
+  background-color: #699a33;
+  border: none;
+  border-bottom: 0.3rem solid darken(#699a33, 11%);
+  color: whitesmoke;
+  font-size: $medium-size;
+  padding: $small-size;
+  border-radius: 0.2rem;
+}
+
+.random-button {
+  font-family: cursive;
+  margin: 1rem;
+  background-color: #699a33;
+  border: none;
+  border-bottom: 0.5rem solid darken(#699a33, 11%);
+  padding: 1rem;
+  color: whitesmoke;
+  border-radius: 0.7rem;
+}
+
+.button-modal {
+  background-color: #943156;
+  font-family: Comic Sans MS;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 0.5rem solid darken(#943156, 11%);
+  color: white;
+  padding: $small-size;
+  border-radius: 0.7rem;
+}
+
+.view-button {
+  font-family: cursive;
+  background-color: #699a33;
+  border: none;
+  border-bottom: 0.5rem solid darken(#699a33, 11%);
+  margin-top: 7px;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+}
