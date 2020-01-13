@@ -39,6 +39,10 @@ class RandomShow extends React.Component{
           isOpen={this.state.showModal}
           contentLabel="Modal"
         >
+          <div className="modal-buttons">
+          <button className="random-button" onClick={this.handleOpenModal}>Random</button>
+          <button className="button-modal" onClick={this.handleCloseModal}>Close</button>
+          </div>
           <Movie 
             key={this.state.movie.id}
             id={this.state.movie.id}
@@ -49,8 +53,6 @@ class RandomShow extends React.Component{
             releaseDate={this.state.movie.release_date}
             overview= {this.state.movie.overview}
             />
-          <button className="random-button" onClick={this.handleOpenModal}>Random</button>
-          <button className="button-modal" onClick={this.handleCloseModal}>Close</button>
        </Modal>
       </div>
     )

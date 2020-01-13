@@ -17,12 +17,12 @@
 }
 
 .modal{
-  width: 35rem;
-  display: block;
-  top: '50%';
+  -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+    zoom: 0.8; /* Other non-webkit browsers */
+    zoom: 80%; /* Webkit browsers */
+  width: 100vh;
+  display: flex;
   left: '50%';
-  right:auto;
-  bottom: auto;
   text-align: center;
   border: none;
   outline: none;
