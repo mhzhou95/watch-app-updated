@@ -6,23 +6,20 @@ class Movie extends React.Component{
   }
   handleViewMovie = ()=>{
     if(this.props.title){
-      let searchName = this.props.title.toLowerCase().split(' ');
-      searchName.join();
-      let url = "https://w5.hdonline.eu/search-query/" + searchName;
+      let url = "https://www.themoviedb.org/movie/" + this.props.id;
       window.open(
         url,
         '_blank' // <- This is what makes it open in a new window.
       );
     }else if (this.props.name){
-      let searchName = this.props.name.toLowerCase().split(' ');
-      searchName.join();
-      let url = "https://w5.hdonline.eu/search-query/" + searchName;
+      let url = "https://www.themoviedb.org/tv/" + this.props.id;
       window.open(
         url,
         '_blank' // <- This is what makes it open in a new window.
       );
     }
   }
+
   render = () =>{
     return (
       <div className="movieWrapper">
